@@ -1,0 +1,118 @@
+/* Basic Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #176b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Content */
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* Content Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Headings */
+h2 {
+    color: #176b3a;
+}
+
+h3 {
+    color: #333333;
+}
+
+/* Lists */
+li {
+    margin-bottom: 8px;
+}
+
+/* Links Inside Sections */
+section a {
+    color: #176b3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #104b29;
+    text-decoration: underline;
+}
+
+/* Comparison Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #176b3a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* Footer */
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile-Friendly Design */
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}

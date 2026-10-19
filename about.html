@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me - Football World</title>
+
+    <style>
+        /* Basic Page Style */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #176b3a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Main Content */
+        main {
+            width: 85%;
+            margin: 20px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #176b3a;
+        }
+
+        /* Email Link */
+        .email {
+            color: #176b3a;
+            font-weight: bold;
+        }
+
+        /* Feedback Form */
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #176b3a;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #104b29;
+        }
+		/* Sitemap */
+        .sitemap {
+            text-align: center;
+        }
+
+        .sitemap a {
+            display: inline-block;
+            background-color: #176b3a;
+            color: white;
+            text-decoration: none;
+            padding: 12px 18px;
+            margin: 8px;
+            border-radius: 5px;
+        }
+
+        .sitemap a:hover {
+            background-color: #104b29;
+        }
+		.report {
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.report a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.report a:hover {
+    background-color: #0056b3;
+}
+
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Mobile Layout */
+        @media (max-width: 600px) {
+            main {
+                width: 95%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Football World</h1>
+        <p>Everything Starts with Football</p>
+
+        <nav>
+          <a href="index.html">Home</a>
+            <a href="worldcup.html">World Cup</a>
+            <a href="leagues.html">Leagues</a>
+            <a href="about.html">About Me and the Process</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Me Section -->
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is MD Shanto. I am a student who is
+                interested in football.
+                I created Football World to share basic information
+                about football, famous leagues, and international
+                competitions. This website is also a part of my
+                learning journey with HTML and CSS.
+            </p>
+
+            <p>
+                I hope you enjoy exploring my website!
+            </p>
+
+            <p>
+                Email:
+                <a class="email" href="mailto:hassan.shanto@knf.stud.vu.lt">
+                    Contact Me
+                </a>
+            </p>
+        </section>
+
+        <!-- Feedback Form -->
+        <section>
+            <h2>Feedback Form</h2>
+
+            <p>Please share your opinion about my website.</p>
+
+            <form>
+
+                <!-- Control 1 -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <!-- Control 2 -->
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <!-- Control 3 -->
+                <label for="rating">How do you rate my website?</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Choose a rating</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+
+                <!-- Control 4 -->
+                <label for="favorite">Your Favourite Football League:</label>
+                <select id="favorite" name="favorite">
+                    <option value="">Choose a league</option>
+                    <option value="premier-league">Premier League</option>
+                    <option value="la-liga">La Liga</option>
+                    <option value="bundesliga">Bundesliga</option>
+                    <option value="serie-a">Serie A</option>
+                    <option value="ligue-1">Ligue 1</option>
+                </select>
+
+                <!-- Control 5 -->
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" rows="4"
+                          placeholder="Write your feedback here..."
+                          required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+
+            </form>
+        </section>
+		<section>
+            <h2>Website Sitemap</h2>
+
+            <p>
+                A sitemap shows the structure of a website
+                and helps visitors find different pages.
+                Click a page below to open it.
+            </p>
+
+            <div class="sitemap">
+
+                <p>
+                    <a href="index.html">Home</a>
+                </p>
+
+                <p>
+                    |
+                </p>
+
+                <p>
+                    <a href="WorldCup.html">World Cup</a>
+
+                    <a href="Leagues.html">Football Leagues</a>
+                </p>
+
+                <p>
+                    <a href="AboutMe.html">About Me & Feedback</a>
+
+                </p>
+
+            </div>
+			
+        </section>
+		<section class="report">
+    <h2>Development Report</h2>
+    <p>
+        Download my website development report to learn about
+        the design, development process, and testing.
+    </p>
+
+    <a href="documents/development-report.pdf" Download>
+        Download PDF Report
+    </a>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by MD Shanto | &copy; 2026 Football World</p>
+    </footer>
+
+</body>
+</html>
